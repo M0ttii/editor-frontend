@@ -1,0 +1,36 @@
+.toolbar{
+    right: 50%;
+    top: 10px;
+    background-color: rgb(43, 40, 58);
+    width: 400px;
+    height: 40px;
+    transform: translate(50%, 0);
+    position: absolute !important;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    transition: transform .1s;
+    transition-timing-function: ease-in-out;
+    margin: 10px;
+}
+
+.underline{
+    width: 22px !important;
+    height: 22px !important;
+}
+
+svg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
