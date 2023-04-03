@@ -18,12 +18,23 @@
 }
 
 svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     transition: transform .1s;
     transition-timing-function: ease-in-out;
     margin: 10px;
 }
+
+.modifier-text {
+    color: #fff;
+    cursor: pointer;
+}
+
+.modifier-active {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 1px;
+  }
 
 .underline{
     width: 22px !important;
@@ -31,6 +42,6 @@ svg {
 }
 
 svg:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     cursor: pointer;
 }
